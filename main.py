@@ -81,7 +81,7 @@ def decision_engine(trend, sentiment, macro):
 
 TELEGRAM_TOKEN = "YOUR_TOKEN"
 CHAT_ID = "YOUR_CHAT_ID"
-
+"""
 def send_telegram(message):
     url = f"https://api.telegram.org/bot8642525638:AAEwLWrHt7ihHdZJhS3APN6iNfxOjZ1aAEo/sendMessage"
     requests.post(url, data={
@@ -89,7 +89,20 @@ def send_telegram(message):
         "text": message
     })
 
+"""
 
+def send_telegram(message):
+    token = "bot8642525638:AAEwLWrHt7ihHdZJhS3APN6iNfxOjZ1aAEo"
+    chat_id = 8642525638
+
+    url = f"https://api.telegram.org/bot{token}/sendMessage"
+
+    response = requests.post(url, data={
+        "chat_id": chat_id,
+        "text": message
+    })
+
+    print(response.text)
 
 def run_agent():
     data = get_price_data()
