@@ -1,4 +1,4 @@
-name: SP500 Agent
+name: SP5001 Agent
 
 on:
   workflow_dispatch:
