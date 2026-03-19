@@ -92,7 +92,7 @@ def send_telegram(message):
 """
 
 def send_telegram(message):
-    token = "bot8642525638:AAEwLWrHt7ihHdZJhS3APN6iNfxOjZ1aAEo"
+    token = "8642525638:AAEwLWrHt7ihHdZJhS3APN6iNfxOjZ1aAEo"
     chat_id = 8642525638
 
     url = f"https://api.telegram.org/bot{token}/sendMessage"
