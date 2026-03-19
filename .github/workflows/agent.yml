@@ -1,6 +1,7 @@
 name: SP5002 Agent
 
 on:
+  workflow_dispatch: 
   schedule:
      - cron: "*/5 * * * *"
 
