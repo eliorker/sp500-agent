@@ -3,7 +3,7 @@ name: SP500 Agent
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "* * * * *"
 
 jobs:
   run-agent:
