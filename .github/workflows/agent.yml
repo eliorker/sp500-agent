@@ -1,4 +1,4 @@
-name: SP5001 Agent
+name: SP5002 Agent
 
 on:
   schedule:
