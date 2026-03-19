@@ -85,7 +85,7 @@ CHAT_ID = "YOUR_CHAT_ID"
 def send_telegram(message):
     url = f"https://api.telegram.org/bot8642525638:AAEwLWrHt7ihHdZJhS3APN6iNfxOjZ1aAEo/sendMessage"
     requests.post(url, data={
-        "chat_id": CHAT_ID,
+        "chat_id": 8642525638,
         "text": message
     })
 
