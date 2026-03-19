@@ -79,8 +79,8 @@ def decision_engine(trend, sentiment, macro):
 
 
 
-TELEGRAM_TOKEN = "YOUR_TOKEN"
-CHAT_ID = "YOUR_CHAT_ID"
+TELEGRAM_TOKEN = "8642525638:AAEwLWrHt7ihHdZJhS3APN6iNfxOjZ1aAEo"
+CHAT_ID = 8642525638
 """
 def send_telegram(message):
     url = f"https://api.telegram.org/bot8642525638:AAEwLWrHt7ihHdZJhS3APN6iNfxOjZ1aAEo/sendMessage"
