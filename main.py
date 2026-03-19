@@ -80,12 +80,12 @@ def decision_engine(trend, sentiment, macro):
 
 
 TELEGRAM_TOKEN = "8642525638:AAEwLWrHt7ihHdZJhS3APN6iNfxOjZ1aAEo"
-CHAT_ID = "889612940"
+CHAT_ID = "889162940"
 """
 def send_telegram(message):
     url = f"https://api.telegram.org/bot8642525638:AAEwLWrHt7ihHdZJhS3APN6iNfxOjZ1aAEo/sendMessage"
     requests.post(url, data={
-        "chat_id": "889612940",
+        "chat_id": "889162940",
         "text": message
     })
 
@@ -93,7 +93,7 @@ def send_telegram(message):
 
 def send_telegram(message):
     token = "8642525638:AAEwLWrHt7ihHdZJhS3APN6iNfxOjZ1aAEo"
-    chat_id = "889612940"
+    chat_id = "889162940"
 
     url = f"https://api.telegram.org/bot{token}/sendMessage"
 
