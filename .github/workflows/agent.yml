@@ -2,8 +2,9 @@ name: SP5002 Agent
 
 on:
   workflow_dispatch:
-
-
+  schedule:
+     - cron: "*/5 * * * *"
+     
 jobs:
   run-agent:
     runs-on: ubuntu-latest
