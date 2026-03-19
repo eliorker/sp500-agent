@@ -13,9 +13,9 @@ def get_price_data():
 def calculate_trend_score(data):
     latest = data.iloc[-1]
 
-    price = latest["Close"]
-    ma50 = latest["MA50"]
-    ma200 = latest["MA200"]
+    price = float(latest["Close"])
+    ma50 = float(latest["MA50"])
+    ma200 = float(latest["MA200"])
 
     score = 0
 
