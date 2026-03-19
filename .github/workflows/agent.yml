@@ -1,8 +1,8 @@
 name: SP5002 Agent
 
 on:
-  schedule:
-     - cron: "*/5 * * * *"
+  workflow_dispatch:
+
 
 jobs:
   run-agent:
